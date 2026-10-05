@@ -3,7 +3,7 @@ st.title("Summer Olympics 1896 to 2024")
 st.write("Data Analysis")
 st.video("https://www.youtube.com/shorts/GpuZL1lheQ0")
 import pandas as pd
-df = pd.read_csv("C:/Users/shyju/STREAMLIT/DATA ANALYSIS/data.csv")
+df = pd.read_csv("data.csv")
 st.sidebar.title("Navigation Window")
 st.sidebar.write("Explore different Sections")
 page = st.sidebar.radio("Choose the visual you want:", ["Medal Count by Country","Performance by Gender","Medal Trend Over Time","Top Medalist","Most Popular Sports","Funfacts"])
